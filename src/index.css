@@ -21,6 +21,7 @@ tbody tr:hover {
   align-items: center;
 }
 
+article,
 main {
   display: grid;
   gap: 1ch;

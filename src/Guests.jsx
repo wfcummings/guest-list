@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getGuests } from "./api";
 
-export default function Guests(setGuestId) {
+export default function Guests({ setGuestId }) {
   const [guests, setGuests] = useState([]);
 
   useEffect(() => {

@@ -8,6 +8,7 @@ export async function getGuests() {
     return result.data;
   } catch (e) {
     console.error(e);
+    return [];
   }
 }
 
